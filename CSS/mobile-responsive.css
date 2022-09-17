@@ -1,10 +1,11 @@
 @media screen and (max-width: 550px) {
-  .header {
-    padding: 20px;
-  }
   html,
   body {
     overflow-x: hidden;
+  }
+  /* header-section */
+  .header {
+    padding: 20px;
   }
   .header ul li {
     display: none;
@@ -17,6 +18,7 @@
   .header img {
     height: 40px;
   }
+  /* introduction-section */
   .introduction {
     flex-direction: column;
     justify-content: center;
@@ -49,9 +51,11 @@
     font-size: 17px;
     font-weight: 300;
   }
+  /* black-shade */
   .shade {
     display: none;
   }
+  /* courses-section */
   .courses {
     flex-direction: column;
     justify-content: center;
@@ -67,6 +71,7 @@
   .course h3 {
     font-size: 25px;
   }
+  /* experiences-section */
   .experiences {
     padding: 0px 80px;
     padding-bottom: 70px;
@@ -95,6 +100,7 @@
     font-size: 20px;
     font-weight: bold;
   }
+  /* project-description-section */
   .project-description {
     padding: 0px 20px;
     flex-direction: column;
@@ -109,6 +115,7 @@
   .project-description div p {
     display: none;
   }
+  /* projects-section */
   .projects {
     padding: 20px;
     grid-template-columns: auto;
@@ -128,6 +135,7 @@
     padding-top: 5px;
     font-size: 23px;
   }
+  /* contact-section */
   .contact {
     margin: 20px;
     flex-direction: column;
@@ -146,6 +154,7 @@
   .contact button {
     margin-top: 13px;
   }
+  /* list-section */
   .list {
     padding: 20px;
   }
@@ -153,6 +162,7 @@
     padding: 0px 15px;
     font-size: 18px;
   }
+  /* footer-section */
   .footer {
     padding: 20px;
   }

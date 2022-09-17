@@ -1,3 +1,4 @@
+/* poppins-font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;1,600;1,700&display=swap");
 *{
   padding: 0px;
@@ -6,10 +7,12 @@
   list-style-type: none;
   font-family: poppins;
 }
+/* background */
 body{
   background-color: #000000;
   color: #FFFFFF;
 }
+/* header-section */
 .header{
   display: flex;
   align-items: center;
@@ -31,6 +34,7 @@ body{
   padding-left: 70px;
   font-size: 20px;
 }
+/* introduction-section */
 .introduction{
   display: flex;
   align-items: center;
@@ -63,6 +67,7 @@ button {
   font-weight: bold;
   font-size: 18px;
 }
+/* black-shade */
 .shade{
   height: 140vh;
   width: 50vw;
@@ -70,6 +75,7 @@ button {
   background-color: rgba(46, 44, 44, 0.502);
   z-index: -1;
 }
+/* courses-section */
 .courses{
   display: flex;
   align-items: center;
@@ -99,6 +105,7 @@ button {
   color: #ff3343;
   font-size: 20px;
 }
+/* experiences-section */
 .experiences{
   padding: 0px 200px;
   padding-bottom: 100px;
@@ -135,6 +142,7 @@ button {
 .no p{
   font-size: 22px;
 }
+/* project-description-section */
 .project-description{
   padding: 0px 200px;
   display: flex;
@@ -147,6 +155,7 @@ button {
 .project-description div p{
   font-size: 20px;
 }
+/* projects-section */
 .projects{
   display: grid;
   grid-template-columns: auto auto;
@@ -170,6 +179,7 @@ button {
 .projects div h1{
   padding-top: 5px;
 }
+/* contact-section */
 .contact {
   margin:30px 200px ;
   background-color:rgb(37, 36, 36) ;
@@ -187,6 +197,7 @@ button {
   font-size: 20px;
   padding-top: 20px;
 }
+/* list-section */
 .list{
   display: flex;
   align-items: center;
@@ -197,6 +208,7 @@ button {
   padding: 0px 40px;
   font-size: 20px;
 }
+/* footer-section */
 .footer {
   display: flex;
   align-items: center;
@@ -221,6 +233,7 @@ button {
 .footer ul li:last-child img{
   height: 25px;
 }
+/* hover-effect */
 .course:hover {
   background-color: #c91b28;
 }
